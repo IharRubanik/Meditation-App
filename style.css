@@ -1,0 +1,113 @@
+.wraper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-size: cover;
+}
+.wraper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.button-time {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  width: 33.3333333%;
+  height: 615px;
+  padding-top: 20vh;
+  z-index: 1;
+}
+.media {
+  background: none;
+  width: 33.3333333%;
+  text-align: center;
+  z-index: 1;
+}
+
+.button-style {
+  background: none;
+  width: 33.3333333%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button-time button {
+  margin-bottom: 50px;
+  width: 150px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  font-size: 25px;
+  border-radius: 4%;
+  color: white;
+  border: none;
+}
+.button-time button:hover {
+  cursor: pointer;
+  color: rgb(8, 22, 24);
+}
+
+#pause {
+  display: none;
+  fill: rgb(144, 198, 238);
+  width: 170px;
+  height: 170px;
+  margin-top: 187px;
+}
+#pause:hover {
+  cursor: pointer;
+  fill: rgb(8, 22, 24);
+}
+
+#play {
+  /* display:;
+  display: none; */
+  fill: rgb(144, 198, 238);
+  width: 170px;
+  height: 170px;
+  margin-top: 187px;
+}
+
+#play:hover {
+  cursor: pointer;
+  fill: rgb(8, 22, 24);
+}
+
+#rain {
+  fill: rgb(18, 116, 119);
+  width: 170px;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sum {
+  fill: rgb(173, 181, 20);
+  width: 170px;
+  height: 170px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rain:hover, #sum:hover {
+  cursor: pointer;
+  fill: rgb(8, 22, 24);
+}
