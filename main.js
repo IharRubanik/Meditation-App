@@ -11,15 +11,15 @@
         button1000s = document.getElementById ('1000s');
    
         buttonRain.onclick = function () {
-            video.src = "/video/rain.mp4";
-            audio.src = "/audio/rain.mp3";
+            video.src = "\video\rain.mp4";
+            audio.src = "\audio\rain.mp3";
             play.style.display = "none";
             pause.style.display = "unset"; 
         } 
 
         buttonSun.onclick = function () {
-            video.src = "/video/sea.mp4";
-            audio.src = "/audio/sea.mp3";
+            video.src = "\video\sea.mp4";
+            audio.src = "\audio\sea.mp3";
             play.style.display = "none";
             pause.style.display = "unset";
         }
