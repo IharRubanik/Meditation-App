@@ -1,2 +1,1 @@
-# meditation-app
-Meditation app tutorial
+https://iharrubanik.github.io/Meditation-App/
